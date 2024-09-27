@@ -16,3 +16,6 @@ export const pool = createPool({
   password: DB_PASSWORD,
   database: DB_DATABASE,
 });
+
+const resp = await pool.query("SELECT 1+1 as Result")
+console.log("Respuesta 1+1: ", resp);
