@@ -1,5 +1,5 @@
-import { PORT } from "../src/config.js";
-import app from "../src/app.js";
+import { PORT } from "./config.js";
+import app from "./app.js";
 
 
 app.listen(PORT);
